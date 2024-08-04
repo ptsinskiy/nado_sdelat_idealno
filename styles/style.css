@@ -26,7 +26,7 @@ body {
     text-align: center;
     text-transform: uppercase;
     align-items: center;
-    padding-bottom: 5%;
+    padding-bottom: 10%;
 }
 
 a {
@@ -49,7 +49,7 @@ video {
 
 .page__title:hover::before {
     position: absolute;
-    top: 186px;
+    top: 180px;
     right: 22px;
     padding: 36px 44px;
     
