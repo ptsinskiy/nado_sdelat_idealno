@@ -17,16 +17,19 @@ body {
 }
 
 .page__heading {
-    padding: 4.5% 20%; 
+    display: flex;
+    height: 100%;
     font-size: 120px;
     font-weight: 800;
     line-height: 136px;
-    letter-spacing: 0.01em; 
+    letter-spacing: 0.01em;
     text-align: center;
-    text-transform: uppercase; 
+    text-transform: uppercase;
+    align-items: center;
+    padding-bottom: 20%;
 }
 
-a { 
+a {
     color: #000;
     text-decoration: none;
 }
@@ -45,7 +48,7 @@ video {
 }
 
 .page__title:hover::before {
-    position: absolute; 
+    position: absolute;
     top: 192px;
     right: 22px;
     padding: 36px 44px;
